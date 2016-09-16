@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+	<title>airline</title>
+	<!-- meta信息，可维护 -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/ident.css">
+    <script type="text/javascript">
+    	function adjustFontSize() {
+        var baseSize = 100,
+        iWidth = document.documentElement.clientWidth,
+        resSize = baseSize / (640 / iWidth);
+		if(iWidth > 375)
+		{
+			resSize = 58;
+		}
+        document.getElementsByTagName('html')[0].style.fontSize = resSize + 'px';
+    }
+	    adjustFontSize();
+	    // function adjusticonposition(){
+	    // 	var line=document.getElementsBy
+	    // }
+	    // adjusticonposition();
+
+	    window.addEventListener('resize', adjustFontSize);
+	    // window.addEventListener('resize', adjusticonposition);
+    </script>
+
+</head>
+<body>
+<section class="airlinecheck">
+	<section class="airline">
+		<div class="attention">
+		<p class="recommend">好友sky邀您关注以下航班的动态：</p>
+		<div class="info">
+			<p><span>2015-03-03</span><span>周二</span><span>吉祥航空HO1252</span></p>
+			<div class="detail">
+				<div>
+					<p class="time">06:50</p>
+					<p>虹桥机场T2</p>
+				</div>
+				<div class="icon">
+					<p class="line"></p>
+					<site></site>
+				</div>
+				<div>
+					<p class="time">09:05</p>
+					<p>虹桥机场T2</p>
+				</div>
+			</div>
+				<ul>
+					<li><site class="ontime"></site>准点率100%</li>
+					<li><site class="food"></site>有餐食</li>
+					<li><site class="airplane"></site>波音737(中)</li>
+				</ul>
+		</div>
+		</div>
+		<p class="airport">乘机人：张三,王四</p>
+	</section>
+	<section class="tcinfo">
+		<p class="tel"><input type="text" placeholder="请输入订阅手机号"></p>
+		<p class="submit"><input type="button" value="确认接受此航班动态"></p>
+		<p class="agree"><input type="checkbox" value="已同意《同程旅游服务条款》">已同意《同程旅游服务条款》</p>
+	</section>
+</section>
+</body>
+
+<script type="text/javascript" src="http://js.40017.cn/touch/cn/public/zepto.20140212.js?v=201412011658"></script>
+<script type="text/javascript">
+$(function(){
+	// $(".icon").width()  $(".icon site").width()
+	 // var scollLeft()=0;
+	 var offset=$(".icon").offset().left;
+//	 alert(offset);
+	 $(".icon site").offset({"left":($(".icon").width()-$(".icon site").width())/2+offset});
+	 // $(".icon site").offset({"left":($(".icon").width()-$(".icon site").width())/2+$(".icon").offset().left});
+	 // $(".icon site").offset({"left":0});
+	 // alert($(".icon").offset().left);
+	 //alert($(".icon").width()-$(".icon site").width());
+})
+</script>
+
+</html>

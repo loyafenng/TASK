@@ -1,0 +1,179 @@
+html{
+	background: #eeeff0;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0.4rem;
+}
+
+site{
+	display: inline-block;
+	width: 34px;
+	height: 18px;
+}
+.airlinecheck{
+	width: 100%;
+	height: 100%;
+	background: #eeeff0;
+	padding: 11px 0;
+}
+
+.airlinecheck .airline{
+	width: 94%;
+	background: #f0f0f0;
+	border:1px solid #bdbdbd;
+	border-radius: 0.35rem;
+	box-shadow: 0.05em 0.05em #c5c5c6;
+	margin: 0 auto;
+}
+
+.airlinecheck .airline .attention{
+	background: #fff;
+	border-top-left-radius: 0.35rem;
+	border-top-right-radius: 0.35rem;
+	padding: 0.3rem 0.2rem;
+}
+
+.airlinecheck .airline .attention .recommend{
+	font-size: 0.26rem;
+	padding-bottom: 0.3rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.airlinecheck .airline .attention .info p span{
+	font-size: 0.2rem;
+	padding-right: 0.18rem;
+}
+
+.airlinecheck .airline .attention .info .detail{
+	overflow: hidden;
+}
+
+.airlinecheck .airline .attention .info .detail .icon{
+	height: 0.66rem;
+	position: relative;
+}
+.airlinecheck .airline .attention .info .detail div{
+	text-align: center;
+	width: 33%;
+	float: left;
+}
+
+.airlinecheck .airline .attention .info .detail .line{
+	height: 0.5rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.airlinecheck .airline .attention .info .detail .icon site{
+	background: url(../img/icon.jpg)no-repeat;
+	background-size: 0.8rem;
+	background-position: 3px 2px;
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	display: inline-block;
+	width: 0.68rem;
+	height: 0.36rem;
+}
+
+.airlinecheck .airline .attention .info .detail p{
+	font-size: 0.24rem;
+}
+
+.airlinecheck .airline .attention .info .detail .time{
+	font-size: 0.34rem;
+	font-weight: bold;
+	margin-top: 0.3rem;
+	margin-bottom: 0.23rem;
+}
+
+.airlinecheck .airline .attention .info ul{
+	height: 0.36rem;
+	padding-top: 0.3rem;
+	overflow: hidden;
+}
+
+.airlinecheck .airline .attention .info ul li{
+	width: 1.4rem;
+	//text-align: right;
+	line-height: 0.36rem;
+	font-size:0.24rem;
+	list-style: none;
+	float: left;
+	color: #ccc;
+	border-right: 1px solid #ccc;
+}
+.airlinecheck .airline .attention .info ul li:first-child{
+	width: 2.02rem;
+}
+.airlinecheck .airline .attention .info ul li:last-child{
+	width: 2.11rem;
+	border: none;
+}
+
+.airlinecheck .airline .attention .info ul li .ontime{
+	background: url(../img/icon.jpg)no-repeat;
+	background-size: 40px 80px;
+	background-position: 0 -17px;
+	float: left;
+	
+}
+.airlinecheck .airline .attention .info ul li .food{
+	background: url(../img/icon.jpg)no-repeat;
+	background-size: 40px 80px;
+	background-position: 0 -34px;
+	//margin-top: 0.06rem;
+	float: left;
+}
+.airlinecheck .airline .attention .info ul li .airplane{
+	background: url(../img/icon.jpg)no-repeat;
+	background-size: 40px 80px;
+	background-position: 0 -50px;
+	float: left;
+}
+
+.airlinecheck .airline .airport{
+	font-size: 0.26rem;
+	padding: 0.32rem 0.2rem;
+	color: #acacac;
+}
+
+.tcinfo{
+	width: 90%;
+	padding-top: 0.76rem;
+	margin: 0 auto;
+}
+
+.tcinfo .tel input{
+	width: 100%;
+	height: 0.86rem;
+	border:1px solid #ccc;
+	border-radius: 0.1rem;
+}
+
+.tcinfo .submit input{
+	width: 100%;
+	height: 0.85rem;
+	font-size: 0.34rem;
+	border: none;
+	border-radius: 0.1rem;
+	background: #03bc01;
+	color: #fff;
+	margin-top: 0.2rem;
+}
+.tcinfo .agree{
+	padding-top: 0.2rem;
+	font-size: 0.21px;
+	color: #c3c3c4;
+	overflow: hidden;
+}
+
+.tcinfo .agree input{
+	float: left;
+}
+::-webkit-input-placeholder{
+	font-size: 0.36rem;
+	text-align: center;
+}

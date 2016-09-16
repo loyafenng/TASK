@@ -1,0 +1,75 @@
+.identity{
+    width: auto;
+    position: absolute;
+    top: 12%;
+    right: 5px;
+    background: #fff;
+    border: none;
+    left:0;
+    padding-left:0;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.pop 
+{
+    display:block;
+    height: 28px;
+    line-height: 28px;
+    margin: 0 auto;
+    padding: 3px 0 0;
+    text-align: center;
+    font-size: 1.1rem;
+    position: absolute;
+    top: -50%;
+    left: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    -moz-box-shadow: 0 0 8px #dcdcdc;
+    -webkit-box-shadow: 0 0 8px #dcdcdc;
+    box-shadow: 0 0 8px #dcdcdc;
+    z-index: 999;
+    display: none;
+}
+
+.pop:before, .pop:after {
+    content: "";
+    display: block;
+    border-width: 8px;
+    position: absolute;
+    bottom: -16px;
+    left: 100px;
+    border-style: solid dashed dashed;
+    border-color: #DCDCDC transparent transparent;
+    font-size: 0;
+    line-height: 0;
+}
+.pop:after {
+    bottom: -14px;
+    border-color: #FFF transparent transparent;
+}
+.typeIn li .item-values,.typeIn li .analog-input-placeholder
+{
+    width:auto;
+    float:none;
+}
+
+
+.typeIn li .pop
+{
+    width:120%;
+}
+
+.singleInput > div .identity{
+	left: 73px;
+	right: 35px;
+}
+.singleInput > div .pop
+{
+    width:80%;
+    font-size: 1.1rem;
+    position: absolute;
+    float: none;
+}

@@ -1,0 +1,269 @@
+html{
+	background: #069050;
+	font-size: 16px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul,li{
+	list-style: none;
+}
+
+.banner{
+	height: 53px;
+	z-index: 1000;
+	background: url(../img/top.jpg);
+}
+/*.banner img{
+	z-index: 1000;
+}*/
+
+.banner .bannerlogin{
+	width: 1000px;
+	height: 53px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.banner .bannerlogin .logo{
+	width: 140px;
+	height: 40px;
+	background: url(../img/icon.png) no-repeat 0 -2px;
+	margin-left: 10px;
+	float: left;
+}
+
+.banner .bannerlogin .login{
+	width:110px;
+	height: 53px; 
+	line-height: 53px;
+	float: right;
+}
+
+.banner .bannerlogin .login ul{
+	width: 110px;
+	height: 53px;
+	line-height: 53px;
+	color:#6a9804;
+	font-size: 12px;
+}
+
+.banner .bannerlogin .login .log{
+	width: 44px;
+	padding-left: 0;
+	padding-right: 5px;
+	border-right: 1px solid #ccc;
+}
+
+.banner .bannerlogin .login ul li{
+	width: 45px;
+	height: 15px;
+	line-height: 15px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+.banner .bannerlogin .login ul li span{
+	width: 15px;
+	height: 15px;
+	background: url(../img/icon.png)no-repeat -30px -52px;
+	float: left;
+}
+.banner .bannerlogin .login .log span{
+	background: url(../img/icon.png)no-repeat -8px -52px;
+}
+h1 img{
+	width: 100%;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.main{
+	width: 1000px;
+	height: 58px;
+	//background: #fffce1;
+	margin: 0 auto;
+	color: #054527;
+}
+
+.main .brief,
+.main .intro,
+.main .airline,
+.main .detail{
+	background: #fffce1;
+	margin-bottom: 40px;
+}
+
+.main .brief{
+	margin-bottom: 30px;
+}
+
+.main .brief p{
+
+	line-height: 58px;
+	text-align: center;
+}
+
+.main p .xiamen{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.main .intro{
+	overflow: hidden;
+}
+
+.main .intro .textintro{
+	width: 458px;
+	float: left;
+	padding:61px 37px 53px 43px;
+	background: url(../img/brief.png)no-repeat right bottom;
+}
+.main .intro .textintro p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.main .intro .textintro .zhangzhou{
+	height: 48px;
+	line-height: 48px;
+	font-size: 48px;
+	float: left;
+	//font-style: italic;
+}
+.main .intro .img{
+	width: 422px;
+	float: left;
+	padding:24px 20px 15px 18px;
+	border-left: 1px dashed #ccc;
+}
+
+.main .intro .img img{
+	width: 410px;
+}
+
+.main .airline{
+	overflow: hidden;
+}
+
+.main .airline .title{
+	height: 46px;
+	line-height: 46px;
+	background: #054527;
+	overflow: hidden;
+}
+
+.main .airline .title li{
+	width: 200px;
+	font-size: 22px;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+
+.main .airline .title li{
+}
+
+.main .airline .title .comecity:hover{
+	/*color: #fff;*/
+}
+
+.main .airline .title .comecity span{
+	display: inline-block;
+	width: 30px;
+	height: 33px;
+	background: url(../img/icon.png);
+	background-position: 0 -240px;
+}
+.main .airline .title li:first-child{
+	background: #fed131;
+
+}
+.main .airline .airlineleft,
+.main .airline .airlineinner,
+.main .airline .airlineright{
+	/*width: 440px;
+	float: left;
+	padding: 15px 30px;*/
+}
+.main .airline .airlineright{
+	display: none;
+}
+.main .airline .airlineleft ul li,
+.main .airline .airlineinner ul li,
+.main .airline .airlineright ul li{
+	height: 42px;
+	line-height: 42px;
+	border-bottom: 1px dashed #ccc;
+	padding-left: 52px;
+	overflow: hidden;
+	width: 380px;
+	float: left;
+	margin: 0 30px;
+}
+
+.main .airline .airlineleft ul li:last-child,
+.main .airline .airlineinner ul li:last-child,
+.main .airline .airlineright ul li:last-child{
+	border: none;
+}
+.main .airline .airlineleft ul li:nth-of-type(19),
+.main .airline .airlineinner ul li:nth-of-type(19),
+.main .airline .airlineright ul li:nth-of-type(19){
+	border:none;
+}
+.main .airline .airlineleft ul li .lowerprice,
+.main .airline .airlineinner ul li .lowerprice,
+.main .airline .airlineright ul li .lowerprice{
+	padding-right: 45px;
+	float: right;
+}
+.main .airline .airlineleft ul li .price,
+.main .airline .airlineinner ul li .price,
+.main .airline .airlineright ul li .price{
+	color: #ff6633;
+}
+.main .detail{
+	color: #054527;
+	padding: 15px 0 20px;
+}
+
+.main .detail dl{
+
+}
+.main .detail dl dt{
+	width: 225px;
+	height:55px;
+	line-height: 55px;
+	font-size: 34px;
+	font-weight: bold;
+	//color: #054527;
+	text-align: center;
+	background: #febc0c;
+	border: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-bottom: 16px; 
+}
+
+.main .detail dl dd{
+	padding: 0 45px;
+	font-size: 15px;
+	overflow: hidden;
+	line-height: 20px;
+	//letter-spacing: 2px;
+}
+.main .detail dl dd div{
+	width: 890px;
+	float: left;
+}
+.main .detail dl dd .order{
+	width: 20px;
+}
+.main .footer{
+	color: #fff;
+	text-align: center;
+}

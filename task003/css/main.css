@@ -1,0 +1,186 @@
+html{
+	background: #009ed3;
+	color: #fff;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+img{
+	width: 100%;
+	border: 0;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+site{
+	width: 0.6rem;
+	height: 0.75rem;
+	display: inline-block;
+}
+.summerholiday{
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*margin-top: 1.3rem;*/
+}
+
+.citytravel{
+	width: 100%;
+	height: 0.75rem;
+	background: #00bfff;
+	margin-bottom: 1.1rem;
+}
+.city{
+	width: 100%;
+	overflow: hidden;
+}
+.citytravel .comefromcity{
+	width:40%;
+	margin: 0 auto;
+	line-height: 0.75rem;
+	font-size: 0.25rem;
+	text-align: center;
+}
+.citytravel .comefromcity>span{
+	display: inline-block;
+	height: 0.75rem;
+	float: left;
+}
+.citytravel .comefromcity span{
+	font-size: 0.28rem;
+}
+.citytravel p site{
+	background: url(../img/icon.png)no-repeat;
+	background-size: 0.8rem;
+	background-position: 0 -1.62rem;
+}
+/*.fixed{
+	width: 100%;
+	height: 200px;
+}*/
+
+.fixed{
+	position: fixed;
+}
+.banner{
+	display: box;
+	display: -webkit-box;
+	/*overflow: hidden;*/
+	width: 100%;
+	height: 1rem;
+	margin-top: -1rem;
+	/*margin-bottom: 0.2rem;*/
+	position: fixed;
+}
+
+.banner div{
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1; /* Safari and Chrome */
+	box-flex:1.0;
+	height: 1rem;
+	border-right: 1px dashed #ccc;
+	background: #00bfff;
+}
+.banner div:last-child{
+	border: none;
+}
+.banner div .foodicon,
+.banner div .enjoyicon,
+.banner div .placeicon{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	margin: 0 auto;
+}
+.banner div .foodicon{
+	background: url(../img/icon.png)no-repeat;
+	background-size: 0.8rem;
+	background-position: 0 0.1rem;
+}
+.banner div .enjoyicon{
+	background: url(../img/icon.png)no-repeat;
+	background-size: 0.8rem;
+	background-position: 0 -0.48rem;
+}
+.banner div .placeicon{
+	background: url(../img/icon.png)no-repeat;
+	background-size: 0.8rem;
+	background-position: 0.12rem -1.05rem;
+}
+.banner div .foodname,
+.banner div .enjoyname,
+.banner div .placename{
+	display: block;
+	font-size: 0.23rem;
+	text-align: center;
+}
+
+.banner .active{
+	background: #0092c3;
+}
+
+.title{
+	width: 100%;
+	overflow: hidden;
+}
+.title img{
+	width: 100%;
+	margin-bottom: 0.1rem;
+	float: left;
+}
+.img{
+	overflow: hidden;
+}
+.summeractivity{
+	float: left;
+	overflow: hidden;
+}
+.title1{
+	padding-top: 0.1rem;
+}
+.summer{
+	width: 49%;
+	margin-right: 2%;
+	margin-bottom: 0.1rem;
+	background: #00bfff;
+	/*width: 3rem;*/
+	float: left;
+	overflow: hidden;
+}
+.city .summer:nth-child(odd){
+	margin-right: 0;
+}
+
+.summer .area{
+	font-size: 0.25rem;
+	margin: 0.11rem;
+}
+
+.summer .detail{
+	font-family: "微软雅黑";
+	font-size: 0.22rem;
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	overflow:hidden;
+	margin: 0.11rem;
+}
+
+.footer{
+	width: 100%;
+	height: 0.8rem;
+	background: #00bfff;
+	color: #000;
+	margin: 0.1rem 0 0.2rem;
+}
+.footer p{
+	text-align: center;
+	font-size: 0.25rem;
+	line-height: 0.8rem;
+}

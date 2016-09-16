@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<div class="city">
+			
+		</div>
+	</body>
+	<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/json.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			var i=0;
+			$.each(city.typelist, function(i,data) {
+				
+				$(".city").append("<img src='citys/"+city.typelist[0].sightList[i].code+"/"+city.typelist[0].sightList[i].coverImg+"'/>")
+				i++;
+				console.log(city.typelist[0].sightList[i]);
+			});
+		})
+	</script>
+</html>

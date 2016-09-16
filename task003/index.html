@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+	<title>暑期特价机票</title>
+	<!-- meta信息，可维护 -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript">
+     function adjustFontSize() {
+        var baseSize = 100,
+        iWidth = document.documentElement.clientWidth,
+        resSize = baseSize / (640 / iWidth);
+//		if(iWidth > 375)
+//		{
+//			resSize = 58;
+//		}
+        document.getElementsByTagName('html')[0].style.fontSize = resSize + 'px';
+    }
+    adjustFontSize();
+    window.addEventListener('resize', adjustFontSize);
+    </script>
+</head>
+<body>
+<div class="citytravel">
+	<p class="comefromcity"><span>出发城市：<span>上海</span></span><site></site></p>
+</div>
+<div class="banner">
+	<div class="food active">
+		<span class="foodicon"></span>
+		<span class="foodname">美食名城</span>
+	</div>
+	<div class="enjoy">
+		<span class="enjoyicon"></span>
+		<span class="enjoyname">欢享海滨</span>
+	</div>
+	<div class="place">
+		<span class="placeicon"></span>
+		<span class="placename">避暑胜地</span>
+	</div>
+</div>
+<div class="summerholiday">
+	<div class="summeractivity">
+		<div class="city title1">
+			<p class="title"><img src="img/food.png"></p>
+		</div>
+		<div class="city title2">
+			<p class="title"><img src="img/enjoy.png"></p>
+		</div>
+		<div class="city title3">
+			<p class="title"></a><img src="img/place.png"></p>
+		</div>
+		<!-- <div class="summer">
+			<img src="citys/CAN/1.JPG">
+			<p class='area'>北京</p>
+			<p class='detail'>追溯帝王盛世的旅程，看古现代文明的交融</p>
+		</div> -->
+	</div>
+</div>
+<div class="footer">
+		<p>找不到？这里有更多特价机票&gt;&gt;</p>
+	</div>
+</body>
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+<script type="text/javascript" src="json.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</html>
